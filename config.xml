@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+  <!--输出电压与电阻的换算关系式-->
+  <circuit>2.8*r/(24+r)</circuit>
+  <!--温度变化时间-->
+  <delay>90</delay>
+  <!--25℃ 10kohm B=3380-->
+  <table>
+    <ntc temperature="-20" resistance="75.0217"/>
+    <ntc temperature="-19" resistance="71.1822"/>
+    <ntc temperature="-18" resistance="67.5670"/>
+    <ntc temperature="-17" resistance="64.1615"/>
+    <ntc temperature="-16" resistance="60.9521"/>
+    <ntc temperature="-15" resistance="57.9564"/>
+    <ntc temperature="-14" resistance="55.0724"/>
+    <ntc temperature="-13" resistance="52.3794"/>
+    <ntc temperature="-12" resistance="49.8373"/>
+    <ntc temperature="-11" resistance="47.4365"/>
+    <ntc temperature="-10" resistance="45.1683"/>
+    <ntc temperature="-9" resistance="43.0245"/>
+    <ntc temperature="-8" resistance="40.9975"/>
+    <ntc temperature="-7" resistance="39.0802"/>
+    <ntc temperature="-6" resistance="37.2659"/>
+    <ntc temperature="-5" resistance="35.5484"/>
+    <ntc temperature="-4" resistance="33.9220"/>
+    <ntc temperature="-3" resistance="32.3812"/>
+    <ntc temperature="-2" resistance="30.9210"/>
+    <ntc temperature="-1" resistance="29.5366"/>
+    <ntc temperature="0" resistance="28.2237"/>
+    <ntc temperature="1" resistance="26.9781"/>
+    <ntc temperature="2" resistance="25.7960"/>
+    <ntc temperature="3" resistance="24.6736"/>
+    <ntc temperature="4" resistance="23.6077"/>
+    <ntc temperature="5" resistance="22.5949"/>
+    <ntc temperature="6" resistance="21.6325"/>
+    <ntc temperature="7" resistance="20.7174"/>
+    <ntc temperature="8" resistance="19.8472"/>
+    <ntc temperature="9" resistance="19.0193"/>
+    <ntc temperature="10" resistance="18.2314"/>
+    <ntc temperature="11" resistance="17.4814"/>
+    <ntc temperature="12" resistance="16.7671"/>
+    <ntc temperature="13" resistance="16.0868"/>
+    <ntc temperature="14" resistance="15.4384"/>
+    <ntc temperature="15" resistance="14.8205"/>
+    <ntc temperature="16" resistance="14.2313"/>
+    <ntc temperature="17" resistance="13.6694"/>
+    <ntc temperature="18" resistance="13.1332"/>
+    <ntc temperature="19" resistance="12.6216"/>
+    <ntc temperature="20" resistance="12.1332"/>
+    <ntc temperature="21" resistance="11.6668"/>
+    <ntc temperature="22" resistance="11.2213"/>
+    <ntc temperature="23" resistance="10.7957"/>
+    <ntc temperature="24" resistance="10.3889"/>
+    <ntc temperature="25" resistance="10.0000"/>
+    <ntc temperature="26" resistance="9.6281"/>
+    <ntc temperature="27" resistance="9.2724"/>
+    <ntc temperature="28" resistance="8.9321"/>
+    <ntc temperature="29" resistance="8.6064"/>
+    <ntc temperature="30" resistance="8.2946"/>
+    <ntc temperature="31" resistance="7.9960"/>
+    <ntc temperature="32" resistance="7.7101"/>
+    <ntc temperature="33" resistance="7.4361"/>
+    <ntc temperature="34" resistance="7.1736"/>
+    <ntc temperature="35" resistance="6.9219"/>
+    <ntc temperature="36" resistance="6.6806"/>
+    <ntc temperature="37" resistance="6.4492"/>
+    <ntc temperature="38" resistance="6.2273"/>
+    <ntc temperature="39" resistance="6.0143"/>
+    <ntc temperature="40" resistance="5.8099"/>
+    <ntc temperature="41" resistance="5.6136"/>
+    <ntc temperature="42" resistance="5.4252"/>
+    <ntc temperature="43" resistance="5.2443"/>
+    <ntc temperature="44" resistance="5.0704"/>
+    <ntc temperature="45" resistance="4.9034"/>
+    <ntc temperature="46" resistance="4.7429"/>
+    <ntc temperature="47" resistance="4.5885"/>
+    <ntc temperature="48" resistance="4.4401"/>
+    <ntc temperature="49" resistance="4.2974"/>
+    <ntc temperature="50" resistance="4.1601"/>
+    <ntc temperature="51" resistance="4.0280"/>
+    <ntc temperature="52" resistance="3.9009"/>
+    <ntc temperature="53" resistance="3.7785"/>
+    <ntc temperature="54" resistance="3.6607"/>
+    <ntc temperature="55" resistance="3.5473"/>
+    <ntc temperature="56" resistance="3.4380"/>
+    <ntc temperature="57" resistance="3.3327"/>
+    <ntc temperature="58" resistance="3.2312"/>
+    <ntc temperature="59" resistance="3.1335"/>
+    <ntc temperature="60" resistance="3.0392"/>
+  </table>
+</config>
